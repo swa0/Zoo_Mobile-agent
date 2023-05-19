@@ -1,0 +1,2217 @@
+@charset "UTF-8";
+.bg {
+  background: url("../images/background.png") no-repeat bottom center;
+  background-size: 100%;
+}
+
+header .affiliate_ic {
+  background: url("../images/affiliate_ic.png") no-repeat center;
+  background-size: contain;
+}
+
+.sideWindow .lang_ic {
+  background: url("../images/lang_ic.png") no-repeat center;
+  background-size: contain;
+}
+
+.affiliatePage .affiliate_banner {
+  background: url("../images/affiliate_banner.png") no-repeat center;
+  background-size: contain;
+}
+
+.affiliatePage .titleLine.affiliate {
+  background: url("../images/titleLine_affiliate.png") no-repeat center;
+  background-size: contain;
+}
+
+.affiliatePage .titleLine.commission {
+  background: url("../images/titleLine_commission.png") no-repeat center;
+  background-size: contain;
+}
+
+.affiliatePage .titleLine.affiliate_term {
+  background: url("../images/titleLine_affiliate_term.png") no-repeat center;
+  background-size: contain;
+}
+
+.affiliatePage .titleLine.affiliate_faq {
+  background: url("../images/titleLine_affiliate_faq.png") no-repeat center;
+  background-size: contain;
+}
+
+.affiliatePage .titleLine.affiliate_privacy {
+  background: url("../images/titleLine_affiliate_privacy.png") no-repeat center;
+  background-size: contain;
+}
+
+.affiliatePage .img_1 {
+  background: url("../images/affiliate_Img1.png") no-repeat center;
+  background-size: contain;
+}
+
+.affiliatePage .check {
+  background: url("../images/btnBG_1_small.png") no-repeat center;
+  background-size: contain;
+}
+
+.affiliatePage .check:active {
+  background: url("../images/btnBG_small_active.png") no-repeat center;
+  background-size: contain;
+}
+
+.affiliatePage .faqBase {
+  background: url("../images/affiliate_faqBase.png") no-repeat center;
+  background-size: contain;
+}
+
+.jumpWindow .closeBtn {
+  background: url("../images/jumpWindow_Close.png") no-repeat center;
+  background-size: contain;
+}
+
+.jumpWindow.agentApplyWindow {
+  background: url("../images/jumpWindow_agentApply.png") no-repeat center;
+  background-size: contain;
+}
+
+.jumpWindow.agentApplyWindow .content form label ul li input::before {
+  background: url("../images/checkBox_BG2.png") no-repeat center;
+  background-size: contain;
+}
+
+.jumpWindow.agentApplyWindow .content form label ul li input::after {
+  background: url("../images/checkBox_check.png") no-repeat center;
+  background-size: contain;
+}
+
+.jumpWindow.agentApplyWindow .content form .check input::before {
+  background: url("../images/checkBox_BG.png") no-repeat center;
+  background-size: contain;
+}
+
+.jumpWindow.agentApplyWindow .content form .check input::after {
+  background: url("../images/checkBox_check.png") no-repeat center;
+  background-size: contain;
+}
+
+.jumpWindow.agentApplyWindow button.enter {
+  background: url("../images/btnBG_2.png") no-repeat center;
+  background-size: contain;
+}
+
+.jumpWindow.agentApplyWindow button.enter:hover {
+  background: url("../images/btnBG_Active.png") no-repeat center;
+  background-size: contain;
+}
+
+.jumpWindow.agentApplyWindow button.enter:active {
+  background: url("../images/btnBG_1.png") no-repeat center;
+  background-size: contain;
+}
+
+.jumpWindow.agentApplyWindow button.enter:disabled {
+  background: url("../images/btnBG_disable.png") no-repeat center;
+  background-size: contain;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  font-family: "微軟正黑體";
+}
+
+a {
+  text-decoration: none;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-family: "微軟正黑體";
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  padding: 0px;
+  font-family: "微軟正黑體";
+}
+
+select, input {
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "微軟正黑體";
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+main {
+  display: block;
+}
+
+i {
+  display: block;
+}
+
+input[type=date]::-webkit-inner-spin-button,
+input[type=date]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
+html {
+  width: 100%;
+  height: auto;
+  font-size: 4vw;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+html body {
+  width: 100%;
+  height: auto;
+}
+html body header {
+  width: 100%;
+  height: 7vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+html body header::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: #000000;
+  opacity: 0.8;
+}
+html body header .logo {
+  width: auto;
+  height: 8vh;
+}
+html body header .logo img {
+  width: auto;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+html body header .listBtn {
+  display: none;
+  width: 7vh;
+  height: 7vh;
+  background: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+html body header .listBtn.display {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+html body header .listBtn i {
+  width: 50%;
+  height: 1vw;
+  background: #ffffff;
+  border-radius: 30vw;
+  margin-bottom: 1.5vw;
+}
+html body header .listBtn i:last-child {
+  margin: 0;
+}
+html body header .affiliate_ic {
+  width: 23vw;
+  height: 7vw;
+  position: absolute;
+  top: 54%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  right: 11vh;
+}
+html body footer {
+  width: 100%;
+  height: 6vh;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 100;
+}
+html body footer.affiliate {
+  background: none;
+}
+html body footer .copyright {
+  color: #ffffff;
+  font-size: 0.85rem;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+html body .filter {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 101;
+}
+html body .filter.display {
+  opacity: 1;
+  pointer-events: visible;
+}
+html body .filter::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: #000000;
+  opacity: 0.6;
+}
+html body .filter .sideWindow {
+  width: 70%;
+  height: 100%;
+  position: relative;
+  padding: 0 2vw;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+  -webkit-transition-delay: 0.25s;
+          transition-delay: 0.25s;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+}
+html body .filter .sideWindow.display {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+html body .filter .sideWindow::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: #000000;
+  opacity: 0.85;
+}
+html body .filter .sideWindow.affiliate {
+  width: 100%;
+}
+html body .filter .sideWindow.affiliate .scrollBox ul {
+  width: 96%;
+  height: auto;
+  margin: 5vh auto 0;
+}
+html body .filter .sideWindow.affiliate .scrollBox ul li {
+  width: 100%;
+  height: 6vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+html body .filter .sideWindow.affiliate .scrollBox ul li::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  border-bottom: dashed 2px #ffffff;
+  opacity: 0.3;
+}
+html body .filter .sideWindow.affiliate .scrollBox ul li a {
+  color: #ffffff;
+  font-size: 0.85rem;
+  font-weight: bold;
+  text-decoration: underline;
+}
+html body .filter .sideWindow.affiliate .scrollBox label {
+  width: 30vw;
+  height: 4vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  margin: 3vh auto 0;
+}
+html body .filter .sideWindow.affiliate .scrollBox label::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: #ffffff;
+  border-radius: 1vw;
+  opacity: 0.1;
+}
+html body .filter .sideWindow.affiliate .scrollBox label::after {
+  content: "";
+  position: absolute;
+  top: 46%;
+  -webkit-transform: translateY(-50%) rotate(135deg);
+          transform: translateY(-50%) rotate(135deg);
+  right: 3vw;
+  width: 2vw;
+  height: 2vw;
+  border-style: solid;
+  border-width: 1vw 1vw 0 0;
+  border-color: #ffffff #ffffff transparent transparent;
+  opacity: 0.6;
+}
+html body .filter .sideWindow.affiliate .scrollBox label i {
+  width: 5vw;
+  height: 5vw;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  margin: 0 2vw;
+}
+html body .filter .sideWindow.affiliate .scrollBox label select {
+  width: auto;
+  height: 100%;
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-size: 1rem;
+  padding-right: 4vw;
+  position: relative;
+  opacity: 0.6;
+}
+html body .filter .sideWindow.affiliate .scrollBox label select option {
+  background: #000000;
+}
+html body .filter .sideWindow .scrollBox {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  padding-bottom: 7vw;
+}
+html body .filter .sideWindow .scrollBox .logo {
+  display: block;
+  width: auto;
+  height: auto;
+  margin-bottom: 4vw;
+}
+html body .filter .sideWindow .scrollBox .logo img {
+  width: auto;
+  height: 8vh;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+html body .filter .sideWindow .scrollBox .registerBtn {
+  display: none;
+  width: 100%;
+  height: 36vw;
+  margin-bottom: 2vw;
+}
+html body .filter .sideWindow .scrollBox .registerBtn.display {
+  display: block;
+}
+html body .filter .sideWindow .scrollBox .loginBox {
+  display: none;
+  width: 100%;
+  height: 51vw;
+  padding: 12vw 8vw 0;
+  margin-bottom: 3vw;
+}
+html body .filter .sideWindow .scrollBox .loginBox.display {
+  display: block;
+}
+html body .filter .sideWindow .scrollBox .loginBox label {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1vw;
+}
+html body .filter .sideWindow .scrollBox .loginBox label p {
+  width: 9vw;
+  color: #000000;
+  font-size: 0.85rem;
+  font-weight: bold;
+  text-align: center;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+html body .filter .sideWindow .scrollBox .loginBox label input {
+  width: 100%;
+  height: 8vw;
+  background: #FFFFFF;
+  border-radius: 1vw;
+  border: solid 2px #666666;
+  color: #000000;
+  font-size: 1rem;
+  font-weight: bold;
+  padding-left: 2vw;
+}
+html body .filter .sideWindow .scrollBox .loginBox label input::-webkit-input-placeholder {
+  color: #000000;
+}
+html body .filter .sideWindow .scrollBox .loginBox label input::-moz-placeholder {
+  color: #000000;
+}
+html body .filter .sideWindow .scrollBox .loginBox label input:-ms-input-placeholder {
+  color: #000000;
+}
+html body .filter .sideWindow .scrollBox .loginBox label input::-ms-input-placeholder {
+  color: #000000;
+}
+html body .filter .sideWindow .scrollBox .loginBox label input::placeholder {
+  color: #000000;
+}
+html body .filter .sideWindow .scrollBox .loginBox button {
+  display: block;
+  width: 30vw;
+  height: 9vw;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.8);
+  padding-bottom: 1.5vw;
+  margin: 0 auto;
+}
+html body .filter .sideWindow .scrollBox .loginBox .forget {
+  color: #C1272D;
+  font-size: 0.85rem;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 1.5vw;
+}
+html body .filter .sideWindow .scrollBox .guideBox {
+  width: 100%;
+  height: auto;
+}
+html body .filter .sideWindow .scrollBox .guideBox .top {
+  width: 100%;
+  height: 19.6vw;
+}
+html body .filter .sideWindow .scrollBox .guideBox .body {
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding: 0 1vw;
+  padding-bottom: 2vw;
+  margin-top: -4.5vw;
+  z-index: 1;
+}
+html body .filter .sideWindow .scrollBox .guideBox .body.noPadding {
+  padding-bottom: 0;
+}
+html body .filter .sideWindow .scrollBox .guideBox .body ul {
+  width: 100%;
+  height: auto;
+}
+html body .filter .sideWindow .scrollBox .guideBox .body ul li {
+  width: 100%;
+  height: 10.5vw;
+  background: rgba(255, 255, 255, 0.1019607843);
+  border: solid 2px rgba(255, 255, 255, 0.2);
+  -webkit-box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.4) inset;
+          box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.4) inset;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 4vw 0 2vw;
+  margin-bottom: 1vw;
+}
+html body .filter .sideWindow .scrollBox .guideBox .body ul li:active, html body .filter .sideWindow .scrollBox .guideBox .body ul li.active {
+  background: #FBB03B;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-color: #ffffff;
+}
+html body .filter .sideWindow .scrollBox .guideBox .body ul li:last-child {
+  margin: 0;
+}
+html body .filter .sideWindow .scrollBox .guideBox .body ul li:active p i, html body .filter .sideWindow .scrollBox .guideBox .body ul li.active p i {
+  background-position-y: 100%;
+}
+html body .filter .sideWindow .scrollBox .guideBox .body ul li:active p span, html body .filter .sideWindow .scrollBox .guideBox .body ul li.active p span {
+  opacity: 1;
+}
+html body .filter .sideWindow .scrollBox .guideBox .body ul li:active .arrow_ic, html body .filter .sideWindow .scrollBox .guideBox .body ul li.active .arrow_ic {
+  opacity: 1;
+}
+html body .filter .sideWindow .scrollBox .guideBox .body ul li p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+html body .filter .sideWindow .scrollBox .guideBox .body ul li p i {
+  width: 7vw;
+  height: 7vw;
+  margin-right: 2vw;
+}
+html body .filter .sideWindow .scrollBox .guideBox .body ul li p i.event {
+  background-position-x: 25%;
+}
+html body .filter .sideWindow .scrollBox .guideBox .body ul li p i.vip {
+  background-position-x: 50%;
+}
+html body .filter .sideWindow .scrollBox .guideBox .body ul li p i.member {
+  background-position-x: 75%;
+}
+html body .filter .sideWindow .scrollBox .guideBox .body ul li p i.guide {
+  background-position-x: 100%;
+}
+html body .filter .sideWindow .scrollBox .guideBox .body ul li p span {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: bold;
+  opacity: 0.6;
+}
+html body .filter .sideWindow .scrollBox .guideBox .body ul li .arrow_ic {
+  width: 3vw;
+  height: 3vw;
+  background: none;
+  border-style: solid;
+  border-width: 1vw 1vw 0 0;
+  border-color: #ffffff #ffffff transparent transparent;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  opacity: 0.6;
+}
+html body .filter .sideWindow .scrollBox .guideBox .body .loginStyle {
+  width: 100%;
+  height: auto;
+}
+html body .filter .sideWindow .scrollBox .guideBox .body .loginStyle .userName {
+  width: 94%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  padding: 1vw 0;
+  margin: 2vw auto;
+}
+html body .filter .sideWindow .scrollBox .guideBox .body .loginStyle .userName::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  border: solid 2px #ffffff;
+  border-radius: 30vw;
+  opacity: 0.2;
+}
+html body .filter .sideWindow .scrollBox .guideBox .body .loginStyle .userName p {
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+html body .filter .sideWindow .scrollBox .guideBox .body .loginStyle .userName i {
+  width: 4vw;
+  height: 4vw;
+  margin-left: 2vw;
+}
+html body .filter .sideWindow .scrollBox .guideBox .body .loginStyle .userBox {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 1vw;
+  margin-bottom: 3vw;
+}
+html body .filter .sideWindow .scrollBox .guideBox .body .loginStyle .userBox .sticker {
+  width: 27vw;
+  height: 27vw;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  margin-right: 3vw;
+}
+html body .filter .sideWindow .scrollBox .guideBox .body .loginStyle .userBox .right {
+  width: 100%;
+  height: auto;
+}
+html body .filter .sideWindow .scrollBox .guideBox .body .loginStyle .userBox .right .titleBox {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 2vw;
+}
+html body .filter .sideWindow .scrollBox .guideBox .body .loginStyle .userBox .right .titleBox p {
+  color: #C7B299;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+html body .filter .sideWindow .scrollBox .guideBox .body .loginStyle .userBox .right .titleBox p span {
+  display: block;
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+html body .filter .sideWindow .scrollBox .guideBox .body .loginStyle .userBox .right .titleBox i {
+  width: 5vw;
+  height: 5vw;
+}
+html body .filter .sideWindow .scrollBox .guideBox .body .loginStyle .userBox .right .walletBox {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 3vw;
+}
+html body .filter .sideWindow .scrollBox .guideBox .body .loginStyle .userBox .right .walletBox p {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+html body .filter .sideWindow .scrollBox .guideBox .body .loginStyle .userBox .right .walletBox p i {
+  width: 8vw;
+  height: 8vw;
+  margin-right: 3vw;
+}
+html body .filter .sideWindow .scrollBox .guideBox .body .loginStyle .userBox .right .walletBox i {
+  width: 5vw;
+  height: 5vw;
+}
+html body .filter .sideWindow .scrollBox .guideBox .body .loginStyle .userBox .right .icBox {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+html body .filter .sideWindow .scrollBox .guideBox .body .loginStyle .userBox .right .icBox a {
+  width: 8vw;
+  height: 8vw;
+  position: relative;
+}
+html body .filter .sideWindow .scrollBox .guideBox .body .loginStyle .userBox .right .icBox a.message {
+  background-position-x: 0;
+}
+html body .filter .sideWindow .scrollBox .guideBox .body .loginStyle .userBox .right .icBox a.mail {
+  background-position-x: 50%;
+}
+html body .filter .sideWindow .scrollBox .guideBox .body .loginStyle .userBox .right .icBox a.remind {
+  background-position-x: 100%;
+}
+html body .filter .sideWindow .scrollBox .guideBox .body .loginStyle .userBox .right .icBox a p {
+  min-width: 4vw;
+  min-height: 4vw;
+  background: #F44336;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  right: -1vw;
+  top: -1vw;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  padding-bottom: 0.5vw;
+}
+html body .filter .sideWindow .scrollBox .guideBox .body .loginStyle .userBox .right .icBox a p span {
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: bold;
+  -webkit-transform: scale(0.85);
+          transform: scale(0.85);
+}
+html body .filter .sideWindow .scrollBox .guideBox .body .loginStyle .linkBox {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 1vw;
+  margin-bottom: 3vw;
+}
+html body .filter .sideWindow .scrollBox .guideBox .body .loginStyle .linkBox a {
+  width: auto;
+  height: auto;
+  background: rgba(153, 134, 117, 0.1019607843);
+  border: solid 2px #998675;
+  border-radius: 2vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1vw 1.5vw;
+}
+html body .filter .sideWindow .scrollBox .guideBox .body .loginStyle .linkBox a:active, html body .filter .sideWindow .scrollBox .guideBox .body .loginStyle .linkBox a.active {
+  background: rgba(255, 255, 255, 0.4);
+  border-color: #FFFFFF;
+}
+html body .filter .sideWindow .scrollBox .guideBox .body .loginStyle .linkBox a i {
+  width: 8vw;
+  height: 8vw;
+  margin: 0 auto;
+}
+html body .filter .sideWindow .scrollBox .guideBox .body .loginStyle .linkBox a i.member_ic {
+  background-position-x: 100%;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+html body .filter .sideWindow .scrollBox .guideBox .body .loginStyle .linkBox a i.deposit {
+  background-position: 0%;
+}
+html body .filter .sideWindow .scrollBox .guideBox .body .loginStyle .linkBox a i.transfer {
+  background-position-x: 50%;
+}
+html body .filter .sideWindow .scrollBox .guideBox .body .loginStyle .linkBox a i.withdrawal {
+  background-position-x: 100%;
+}
+html body .filter .sideWindow .scrollBox .guideBox .body .loginStyle .linkBox a p {
+  color: #ffffff;
+  font-size: 0.85rem;
+  font-weight: bold;
+  text-align: center;
+}
+html body .filter .sideWindow .scrollBox .guideBox .body .loginStyle .infoBox {
+  width: 100%;
+  height: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1vw 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1vw;
+  margin-bottom: 2vw;
+}
+html body .filter .sideWindow .scrollBox .guideBox .body .loginStyle .infoBox .infoBG {
+  width: auto;
+  height: 12vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 2vw;
+}
+html body .filter .sideWindow .scrollBox .guideBox .body .loginStyle .infoBox .infoBG .title {
+  color: #ffffff;
+  font-size: 0.85rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.8);
+}
+html body .filter .sideWindow .scrollBox .guideBox .body .loginStyle .infoBox .infoBG .box {
+  width: 19vw;
+  height: auto;
+  background: #008040;
+  border: solid 2px #ffffff;
+  border-radius: 1vw;
+  padding: 0.5vw 0 1vw;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  -webkit-transform-origin: right;
+          transform-origin: right;
+  margin-top: 1vw;
+}
+html body .filter .sideWindow .scrollBox .guideBox .body .loginStyle .infoBox .infoBG .box.lock {
+  background: #C00000;
+}
+html body .filter .sideWindow .scrollBox .guideBox .body .loginStyle .infoBox .infoBG .box p {
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.4);
+}
+html body .filter .sideWindow .scrollBox .guideBox .body .loginStyle .infoBox .infoBG .level {
+  color: #FFE552;
+  font-size: 0.85rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.8);
+  margin-top: 1vw;
+}
+html body .filter .sideWindow .scrollBox .guideBox .body .logoutBtn {
+  display: block;
+  width: 30vw;
+  height: 9vw;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.8);
+  padding-bottom: 1.5vw;
+  margin: 3vw auto 0;
+}
+html body .filter .sideWindow .scrollBox .guideBox .bottom {
+  width: 100%;
+  height: 2vw;
+  margin-top: -0.5vw;
+}
+html body .filter .sideWindow .scrollBox .bonus {
+  width: 100%;
+  height: 25vw;
+  margin-top: 2vw;
+}
+html body .filter .jumpWindow {
+  display: none;
+  width: 94vw;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+html body .filter .jumpWindow.display {
+  display: block;
+}
+html body .filter .jumpWindow .title {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.8);
+  text-align: center;
+  padding: 3.5vw 0 8vw;
+}
+html body .filter .jumpWindow .closeBtn {
+  width: 10vw;
+  height: 10vw;
+  position: absolute;
+  top: 2vw;
+  right: -2vw;
+}
+html body .filter .jumpWindow.big {
+  height: 70vh;
+}
+html body .filter .jumpWindow.small {
+  height: 38.5vh;
+}
+html body .filter .jumpWindow.smallest {
+  height: 25vh;
+}
+html body .filter .jumpWindow.news .typeList {
+  width: 96%;
+  height: 11vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 0 auto;
+}
+html body .filter .jumpWindow.news .typeList button {
+  width: 25vw;
+  height: 10vw;
+  background-position-y: 100%;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.8);
+  padding-bottom: 2vw;
+}
+html body .filter .jumpWindow.news .typeList button.active {
+  background-position-y: 0;
+}
+html body .filter .jumpWindow.news ul {
+  width: 86%;
+  height: auto;
+  margin: 0 auto;
+}
+html body .filter .jumpWindow.news ul ol {
+  display: none;
+  width: 100%;
+  height: auto;
+}
+html body .filter .jumpWindow.news ul ol.display {
+  display: block;
+}
+html body .filter .jumpWindow.news ul ol li {
+  width: 100%;
+  height: auto;
+  border-bottom: solid 2px #998675;
+  padding: 3vw 0;
+}
+html body .filter .jumpWindow.news ul ol li p {
+  color: #000000;
+  font-size: 0.85rem;
+  font-weight: bold;
+  line-height: 1.2rem;
+  text-decoration: underline;
+}
+html body .filter .jumpWindow.historyWindow .tableBox {
+  width: 88%;
+  height: 58vh;
+  overflow: auto;
+  padding: 2px;
+  margin: 0 auto;
+}
+html body .filter .jumpWindow.historyWindow .tableBox table {
+  width: auto;
+  height: auto;
+  -webkit-box-shadow: 0 0 0 2px #998675;
+          box-shadow: 0 0 0 2px #998675;
+  border-radius: 2vw;
+}
+html body .filter .jumpWindow.historyWindow .tableBox table tr {
+  border-bottom: solid 2px #998675;
+}
+html body .filter .jumpWindow.historyWindow .tableBox table tr:last-child {
+  border: none;
+}
+html body .filter .jumpWindow.historyWindow .tableBox table tr th {
+  height: 12vw;
+  border-right: solid 2px #998675;
+  vertical-align: middle;
+  position: relative;
+  padding: 0 4vw;
+}
+html body .filter .jumpWindow.historyWindow .tableBox table tr th:last-child {
+  border: none;
+}
+html body .filter .jumpWindow.historyWindow .tableBox table tr th::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: #998675;
+  opacity: 0.3;
+}
+html body .filter .jumpWindow.historyWindow .tableBox table tr th p {
+  color: #000000;
+  font-size: 0.85rem;
+  font-weight: bold;
+  white-space: nowrap;
+}
+html body .filter .jumpWindow.historyWindow .tableBox table tr td {
+  height: 12vw;
+  border-right: solid 2px #998675;
+  vertical-align: middle;
+  padding: 0 4vw;
+}
+html body .filter .jumpWindow.historyWindow .tableBox table tr td:last-child {
+  border: none;
+}
+html body .filter .jumpWindow.historyWindow .tableBox table tr td p {
+  color: #000000;
+  font-size: 0.85rem;
+  font-weight: bold;
+  white-space: nowrap;
+  text-align: center;
+}
+html body .filter .jumpWindow.eventWindow .eventBox {
+  width: 88%;
+  height: 58vh;
+  overflow-y: auto;
+  margin: 0 auto;
+}
+html body .filter .jumpWindow.eventWindow .eventBox .imgBox {
+  width: 100%;
+  height: auto;
+  margin: 2vw 0;
+}
+html body .filter .jumpWindow.eventWindow .eventBox .imgBox:first-child {
+  margin-top: 0;
+}
+html body .filter .jumpWindow.eventWindow .eventBox .imgBox .img {
+  width: 100%;
+  height: 24vw;
+  background: #998675;
+  margin-bottom: 2vw;
+}
+html body .filter .jumpWindow.eventWindow .eventBox .imgBox p {
+  color: #000000;
+  font-size: 0.85rem;
+  font-weight: bold;
+  line-height: 1.2rem;
+}
+html body .filter .jumpWindow.eventWindow .eventBox .bg_wood {
+  width: 100%;
+  height: 10vw;
+}
+html body .filter .jumpWindow.friendWindow .tableBox {
+  width: 88%;
+  height: 55vh;
+  overflow-y: auto;
+  padding: 2px;
+  margin: 0 auto 3vw;
+}
+html body .filter .jumpWindow.friendWindow .tableBox table {
+  width: 100%;
+  height: auto;
+  -webkit-box-shadow: 0 0 0 2px #998675;
+          box-shadow: 0 0 0 2px #998675;
+  border-radius: 2vw;
+}
+html body .filter .jumpWindow.friendWindow .tableBox table tr {
+  border-bottom: solid 2px #998675;
+}
+html body .filter .jumpWindow.friendWindow .tableBox table tr:last-child {
+  border: none;
+}
+html body .filter .jumpWindow.friendWindow .tableBox table tr th {
+  width: 50%;
+  height: 12vw;
+  border-right: solid 2px #998675;
+  vertical-align: middle;
+  position: relative;
+}
+html body .filter .jumpWindow.friendWindow .tableBox table tr th:last-child {
+  border: none;
+}
+html body .filter .jumpWindow.friendWindow .tableBox table tr th::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: #998675;
+  opacity: 0.3;
+}
+html body .filter .jumpWindow.friendWindow .tableBox table tr th p {
+  color: #000000;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+html body .filter .jumpWindow.friendWindow .tableBox table tr td {
+  height: 12vw;
+  border-right: solid 2px #998675;
+  vertical-align: middle;
+}
+html body .filter .jumpWindow.friendWindow .tableBox table tr td:last-child {
+  border: none;
+}
+html body .filter .jumpWindow.friendWindow .tableBox table tr td p {
+  color: #000000;
+  font-size: 0.85rem;
+  font-weight: bold;
+  text-align: center;
+}
+html body .filter .jumpWindow.friendWindow .total {
+  width: 88%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 1vw;
+  margin: 0 auto;
+}
+html body .filter .jumpWindow.friendWindow .total .count {
+  color: #000000;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-right: 5vw;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+html body .filter .jumpWindow.friendWindow .total .count span {
+  margin: 0 1vw;
+}
+html body .filter .jumpWindow.friendWindow .total ul {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+html body .filter .jumpWindow.friendWindow .total ul .prev_btn,
+html body .filter .jumpWindow.friendWindow .total ul .next_btn {
+  color: #000000;
+  font-size: 1.5rem;
+}
+html body .filter .jumpWindow.friendWindow .total ul .prev_btn {
+  margin-right: 3vw;
+}
+html body .filter .jumpWindow.friendWindow .total ul li {
+  width: 6vw;
+  height: 6vw;
+  background: #998675;
+  border-radius: 1vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 3vw;
+}
+html body .filter .jumpWindow.friendWindow .total ul li p {
+  color: #ffffff;
+  font-size: 0.95rem;
+  font-weight: bold;
+  padding-bottom: 0.1vw;
+}
+html body .filter .jumpWindow.passwordWindow .subTitle {
+  width: 88%;
+  color: #000000;
+  font-size: 0.85rem;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.2rem;
+  margin: 0 auto 4vw;
+}
+html body .filter .jumpWindow.passwordWindow ul {
+  width: 88%;
+  height: auto;
+  margin: 0 auto;
+}
+html body .filter .jumpWindow.passwordWindow ul ol {
+  display: none;
+}
+html body .filter .jumpWindow.passwordWindow ul ol.display {
+  display: block;
+}
+html body .filter .jumpWindow.passwordWindow ul li {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 4vw;
+}
+html body .filter .jumpWindow.passwordWindow ul li:last-child {
+  margin: 0;
+}
+html body .filter .jumpWindow.passwordWindow ul li label {
+  width: 100%;
+  height: 11vw;
+  border: solid 2px #998675;
+  border-radius: 2vw;
+  position: relative;
+}
+html body .filter .jumpWindow.passwordWindow ul li label::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: #998675;
+  opacity: 0.1;
+}
+html body .filter .jumpWindow.passwordWindow ul li label input {
+  width: 100%;
+  height: 100%;
+  background: none;
+  border: none;
+  color: #000000;
+  font-size: 0.85rem;
+  font-weight: bold;
+  padding-left: 4vw;
+}
+html body .filter .jumpWindow.passwordWindow ul li button {
+  width: 34vw;
+  height: 11vw;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFFF00), to(#F7931E));
+  background: linear-gradient(to bottom, #FFFF00 0%, #F7931E 100%);
+  border-radius: 50vw;
+  border: 0.8vw solid #ffffff;
+  color: #000000;
+  font-size: 1rem;
+  font-weight: bold;
+  position: relative;
+  border-radius: 2vw;
+  font-size: 0.85rem;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  margin-left: 2vw;
+}
+html body .filter .jumpWindow.passwordWindow ul li button::before {
+  content: "";
+  width: calc(100% - 0.53vw);
+  height: calc(100% - 0.53vw);
+  background: transparent;
+  border-radius: 50vw;
+  border: 0.53vw solid #534741;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  opacity: 0.8;
+  z-index: 1;
+}
+html body .filter .jumpWindow.passwordWindow ul li button::before {
+  border-radius: 2vw;
+}
+html body .filter .jumpWindow.passwordWindow .check {
+  display: none;
+  width: 38vw;
+  height: 11vw;
+  color: #000000;
+  font-size: 1rem;
+  font-weight: bold;
+  padding-bottom: 1vw;
+  margin: 34vw auto 0;
+}
+html body .filter .jumpWindow.passwordWindow .check.display {
+  display: block;
+}
+html body .filter .jumpWindow.gameWindow .subTitle {
+  color: #736357;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 3vw;
+}
+html body .filter .jumpWindow.gameWindow .row {
+  width: 88%;
+  height: auto;
+  margin: 0 auto 2vw;
+}
+html body .filter .jumpWindow.gameWindow .row p {
+  color: #000000;
+  font-size: 0.85rem;
+  font-weight: bold;
+  margin-bottom: 1vw;
+}
+html body .filter .jumpWindow.gameWindow .row label {
+  display: block;
+  width: 100%;
+  height: 11vw;
+  border: solid 2px #998675;
+  border-radius: 2vw;
+  position: relative;
+}
+html body .filter .jumpWindow.gameWindow .row label::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: #998675;
+  opacity: 0.1;
+}
+html body .filter .jumpWindow.gameWindow .row label input {
+  width: 100%;
+  height: 100%;
+  background: none;
+  border: none;
+  color: #000000;
+  font-size: 0.85rem;
+  font-weight: bold;
+  padding-left: 4vw;
+}
+html body .filter .jumpWindow.gameWindow .row .arrow_ic {
+  width: 5vw;
+  height: 5vw;
+  margin: 0 auto;
+}
+html body .filter .jumpWindow.gameWindow .row .btnBox {
+  width: 100%;
+  height: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2vw 1fr 2vw 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2vw;
+  margin-bottom: 4vw;
+}
+html body .filter .jumpWindow.gameWindow .row .btnBox li {
+  width: auto;
+  height: 8vw;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+html body .filter .jumpWindow.gameWindow .row .btnBox li::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: #998675;
+  opacity: 0.1;
+}
+html body .filter .jumpWindow.gameWindow .row .btnBox li::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  border: solid 2px #998675;
+  border-radius: 2vw;
+  opacity: 0.65;
+}
+html body .filter .jumpWindow.gameWindow .row .btnBox li p {
+  color: #736357;
+  font-size: 1rem;
+  font-weight: bold;
+}
+html body .filter .jumpWindow.gameWindow .check {
+  display: block;
+  width: 38vw;
+  height: 11vw;
+  color: #000000;
+  font-size: 1rem;
+  font-weight: bold;
+  padding-bottom: 1vw;
+  margin: 0 auto;
+}
+html body .filter .jumpWindow.gameWindow .bg_wood {
+  width: 88%;
+  height: 10vw;
+  margin: 2vw auto;
+}
+html body .filter .jumpWindow.phoneWindow .subTitle {
+  width: 88%;
+  color: #000000;
+  font-size: 0.85rem;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.2rem;
+  margin: 0 auto 4vw;
+}
+html body .filter .jumpWindow.phoneWindow ul {
+  width: 88%;
+  height: auto;
+  margin: 0 auto;
+}
+html body .filter .jumpWindow.phoneWindow ul li {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 4vw;
+}
+html body .filter .jumpWindow.phoneWindow ul li:last-child {
+  margin: 0;
+}
+html body .filter .jumpWindow.phoneWindow ul li label {
+  width: 100%;
+  height: 11vw;
+  border: solid 2px #998675;
+  border-radius: 2vw;
+  position: relative;
+}
+html body .filter .jumpWindow.phoneWindow ul li label::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: #998675;
+  opacity: 0.1;
+}
+html body .filter .jumpWindow.phoneWindow ul li label input {
+  width: 100%;
+  height: 100%;
+  background: none;
+  border: none;
+  color: #000000;
+  font-size: 0.85rem;
+  font-weight: bold;
+  padding-left: 4vw;
+}
+html body .filter .jumpWindow.phoneWindow ul li button {
+  width: 34vw;
+  height: 11vw;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFFF00), to(#F7931E));
+  background: linear-gradient(to bottom, #FFFF00 0%, #F7931E 100%);
+  border-radius: 50vw;
+  border: 0.8vw solid #ffffff;
+  color: #000000;
+  font-size: 1rem;
+  font-weight: bold;
+  position: relative;
+  border-radius: 2vw;
+  font-size: 0.85rem;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  margin-left: 2vw;
+}
+html body .filter .jumpWindow.phoneWindow ul li button::before {
+  content: "";
+  width: calc(100% - 0.53vw);
+  height: calc(100% - 0.53vw);
+  background: transparent;
+  border-radius: 50vw;
+  border: 0.53vw solid #534741;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  opacity: 0.8;
+  z-index: 1;
+}
+html body .filter .jumpWindow.phoneWindow ul li button::before {
+  border-radius: 2vw;
+}
+html body .filter .jumpWindow.phoneWindow .check {
+  display: block;
+  width: 38vw;
+  height: 11vw;
+  color: #000000;
+  font-size: 1rem;
+  font-weight: bold;
+  padding-bottom: 1vw;
+  margin: 6vw auto 0;
+}
+html body .filter .jumpWindow.normalWindow .text {
+  width: 88%;
+  color: #000000;
+  font-size: 0.85rem;
+  font-weight: bold;
+  word-break: break-all;
+  line-height: 1.2rem;
+  margin: 0 auto;
+}
+html body .filter .jumpWindow.normalWindow button {
+  display: block;
+  width: 38vw;
+  height: 11vw;
+  color: #000000;
+  font-size: 1rem;
+  font-weight: bold;
+  padding-bottom: 1vw;
+  margin: 4vw auto 0;
+}
+html body .filter .jumpWindow.normalWindow button:active {
+  color: #ffffff;
+}
+html body .filter .jumpWindow.agentApplyWindow {
+  width: 95vw;
+  height: 143vw;
+}
+html body .filter .jumpWindow.agentApplyWindow .title {
+  font-size: 1rem;
+  padding: 2vw 0;
+}
+html body .filter .jumpWindow.agentApplyWindow .content {
+  width: 100%;
+  height: 120vw;
+  padding: 4vw 10vw;
+  overflow: auto;
+}
+html body .filter .jumpWindow.agentApplyWindow .content form {
+  width: 100%;
+  height: auto;
+  padding: 0 1vw 0 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+html body .filter .jumpWindow.agentApplyWindow .content form label {
+  width: 100%;
+  height: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 32% 3vw 65%;
+  grid-template-columns: 32% 65%;
+  gap: 0 3vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 3vw;
+}
+html body .filter .jumpWindow.agentApplyWindow .content form label:nth-last-of-type(1) {
+  margin: 0;
+}
+html body .filter .jumpWindow.agentApplyWindow .content form label .itemName {
+  color: #000000;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+html body .filter .jumpWindow.agentApplyWindow .content form label .itemName span {
+  color: #FF0000;
+}
+html body .filter .jumpWindow.agentApplyWindow .content form label input {
+  width: 100%;
+  height: 11vw;
+  background: transparent;
+  padding: 0 3vw;
+  border: 2px solid rgba(83, 71, 65, 0.3098039216);
+  border-radius: 5px;
+}
+html body .filter .jumpWindow.agentApplyWindow .content form label .remind {
+  color: #FF0000;
+  font-size: 0.7rem;
+  font-weight: bold;
+  line-height: 15px;
+  padding-left: 20vw;
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+  white-space: nowrap;
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1/span 2;
+}
+html body .filter .jumpWindow.agentApplyWindow .content form label ul {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1/span 2;
+  margin-top: 3vw;
+}
+html body .filter .jumpWindow.agentApplyWindow .content form label ul li {
+  width: 32%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+html body .filter .jumpWindow.agentApplyWindow .content form label ul li input {
+  width: 7vw;
+  height: 7vw;
+  border: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  cursor: pointer;
+}
+html body .filter .jumpWindow.agentApplyWindow .content form label ul li input::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  z-index: unset;
+}
+html body .filter .jumpWindow.agentApplyWindow .content form label ul li input::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  width: 64%;
+  height: 64%;
+  z-index: unset;
+  opacity: 0;
+}
+html body .filter .jumpWindow.agentApplyWindow .content form label ul li input:checked::after {
+  opacity: 1;
+}
+html body .filter .jumpWindow.agentApplyWindow .content form label ul li .checkboxName {
+  color: #000000;
+  font-size: 0.7rem;
+  font-weight: bold;
+  margin-left: 5px;
+}
+html body .filter .jumpWindow.agentApplyWindow .content form .check {
+  width: 100%;
+  height: 42px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1/span 2;
+  margin: 10vw auto 2vw;
+}
+html body .filter .jumpWindow.agentApplyWindow .content form .check input {
+  width: 7vw;
+  height: 7vw;
+  border: none;
+  padding: 0;
+  position: relative;
+  cursor: pointer;
+}
+html body .filter .jumpWindow.agentApplyWindow .content form .check input::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  z-index: unset;
+}
+html body .filter .jumpWindow.agentApplyWindow .content form .check input::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  width: 64%;
+  height: 64%;
+  z-index: unset;
+  opacity: 0;
+}
+html body .filter .jumpWindow.agentApplyWindow .content form .check input:checked::after {
+  opacity: 1;
+}
+html body .filter .jumpWindow.agentApplyWindow .content form .check p {
+  color: #000000;
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-left: 5px;
+}
+html body .filter .jumpWindow.agentApplyWindow .content form .check p span {
+  display: block;
+  color: #0000FF;
+  font-size: 0.7rem;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-left: -2vw;
+  white-space: nowrap;
+  cursor: pointer;
+}
+html body .filter .jumpWindow.agentApplyWindow .content form button {
+  width: 46%;
+  height: 9vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1/span 2;
+  margin: 0 auto 0;
+}
+html body .filter .jumpWindow.agentApplyWindow .content form button:disabled p {
+  color: #736357;
+}
+html body .filter .jumpWindow.agentApplyWindow .content form button p {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0 0 1vw;
+}
+html body .filter .close_ic {
+  width: 7vh;
+  height: 7vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+html body .filter .close_ic::before, html body .filter .close_ic::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%) rotate(45deg);
+          transform: translate(-50%, -50%) rotate(45deg);
+  width: 60%;
+  height: 1vw;
+  background: #ffffff;
+  border-radius: 30vw;
+}
+html body .filter .close_ic::after {
+  -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+          transform: translate(-50%, -50%) rotate(-45deg);
+}
+html body .affiliatePage {
+  width: 100%;
+  height: auto;
+  padding: 7vh 0;
+}
+html body .affiliatePage .affiliate_banner {
+  width: 100%;
+  height: 72vw;
+}
+html body .affiliatePage .titleLine {
+  width: 98%;
+  height: 12vw;
+  margin: 2vw auto;
+}
+html body .affiliatePage .titleLine:first-child {
+  margin: 8vw auto 4vw;
+}
+html body .affiliatePage .subTitle {
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.8);
+  text-align: center;
+  margin-bottom: 4vw;
+}
+html body .affiliatePage .subTitle.big {
+  font-size: 2rem;
+}
+html body .affiliatePage .subTitle.le {
+  color: #FFE552;
+  font-size: 1rem;
+  text-align: left;
+  margin-bottom: 2vw;
+}
+html body .affiliatePage .textBox {
+  width: 94%;
+  height: auto;
+  margin: 0 auto;
+}
+html body .affiliatePage .textBox.privacy .le:not(:first-of-type) {
+  margin-top: 6vw;
+}
+html body .affiliatePage .textBox p {
+  color: #ffffff;
+  font-size: 0.85rem;
+  font-weight: bold;
+  line-height: 1.5rem;
+  word-break: break-all;
+}
+html body .affiliatePage .uploadBox {
+  width: 96%;
+  height: auto;
+  position: relative;
+  margin: 0 auto 12vw;
+  padding: 6vw;
+}
+html body .affiliatePage .uploadBox::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3490196078);
+  border: solid 2px rgba(255, 255, 255, 0.3490196078);
+  border-radius: 2vw;
+  z-index: -1;
+}
+html body .affiliatePage .uploadBox .uploadArea {
+  display: block;
+  width: 36vw;
+  height: 36vw;
+  background: none;
+  position: relative;
+  margin: 0 auto;
+}
+html body .affiliatePage .uploadBox .uploadArea::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  border: dashed 2px #ffffff;
+  border-radius: 2vw;
+  opacity: 0.35;
+}
+html body .affiliatePage .uploadBox .uploadArea p {
+  color: #ffffff;
+  font-size: 0.85rem;
+  font-weight: bold;
+  opacity: 0.5;
+}
+html body .affiliatePage .uploadBox .innerTitle {
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 4vw 0;
+}
+html body .affiliatePage .uploadBox .textBox {
+  width: 100%;
+  height: auto;
+}
+html body .affiliatePage .uploadBox .textBox p {
+  color: #ffffff;
+  font-size: 0.85rem;
+  font-weight: bold;
+  line-height: 1.5rem;
+  word-break: break-all;
+}
+html body .affiliatePage .affiliateTable {
+  width: 96%;
+  height: auto;
+  -webkit-box-shadow: 0 0 0 2px #998675;
+          box-shadow: 0 0 0 2px #998675;
+  border-radius: 2vw;
+  position: relative;
+  margin: 0 auto 4vw;
+}
+html body .affiliatePage .affiliateTable::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: #998675;
+  opacity: 0.3;
+}
+html body .affiliatePage .affiliateTable tr {
+  border-bottom: solid 2px #998675;
+}
+html body .affiliatePage .affiliateTable tr:last-child {
+  border: none;
+}
+html body .affiliatePage .affiliateTable tr th {
+  height: 15vw;
+  border-right: solid 2px #998675;
+  vertical-align: middle;
+  position: relative;
+}
+html body .affiliatePage .affiliateTable tr th::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: #998675;
+  opacity: 0.3;
+}
+html body .affiliatePage .affiliateTable tr th:last-child {
+  border: none;
+}
+html body .affiliatePage .affiliateTable tr th p {
+  color: #ffffff;
+  font-size: 0.85rem;
+  font-weight: bold;
+  text-align: center;
+}
+html body .affiliatePage .affiliateTable tr td {
+  height: 15vw;
+  border-right: solid 2px #998675;
+  vertical-align: middle;
+}
+html body .affiliatePage .affiliateTable tr td:last-child {
+  border: none;
+}
+html body .affiliatePage .affiliateTable tr td p {
+  color: #ffffff;
+  font-size: 0.85rem;
+  font-weight: bold;
+  text-align: center;
+}
+html body .affiliatePage .check {
+  display: block;
+  width: 35vw;
+  height: 15vw;
+  color: #000000;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0 auto;
+  padding-bottom: 1vw;
+}
+html body .affiliatePage .img_1 {
+  width: 90vw;
+  height: 52vw;
+  margin: 0 auto 3vw;
+}
+html body .affiliatePage .faqList {
+  width: 96%;
+  height: auto;
+  margin: 0 auto;
+}
+html body .affiliatePage .faqList li {
+  width: 100%;
+  height: auto;
+  margin-bottom: 4vw;
+}
+html body .affiliatePage .faqList li .faqBase {
+  width: 67vw;
+  height: 10vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 2vw;
+  padding: 0 4vw 1.5vw;
+}
+html body .affiliatePage .faqList li .faqBase p {
+  color: #ffffff;
+  font-size: 0.85rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.8);
+}
+html body .affiliatePage .faqList li .textBox {
+  width: 100%;
+  height: auto;
+  padding: 0 4vw;
+}
+html body .affiliatePage .faqList li .textBox p {
+  color: #ffffff;
+  font-size: 0.85rem;
+  font-weight: bold;
+  line-height: 1.2rem;
+}
+html body .affiliatePage .faqList li .textBox p .chapter {
+  color: #FFE552;
+}
+html body .affiliatePage .faqList li .textBox p .keyword {
+  color: #F7931E;
+}
+html body .affiliatePage .faqList li .textBox p.subTitle {
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.8);
+  text-align: center;
+  margin-bottom: 4vw;
+}
+html body .affiliatePage .faqList li .textBox p.subTitle.big {
+  font-size: 2rem;
+}
+html body .affiliatePage .faqList li .textBox p.subTitle.le {
+  color: #FFE552;
+  font-size: 1rem;
+  text-align: left;
+  margin-bottom: 2vw;
+}
+html body .affiliatePage .empty {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  opacity: 0.3;
+  padding: 15vh 0;
+}
+html body .bg {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -999;
+}
